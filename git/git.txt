@@ -20,4 +20,25 @@
 3. 将文件添加到版本库 
 ---------------------
 	$git add git.txt
+	$git commit -m "description" 
+
+	git add 告诉git将git.txt添加到git仓库	
+	
+	简单解释一下git commit命令，-m后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。
+	
+	
+4. 查看仓库当前状态
+-------------------
+	$git status
+	
+	$git diff git/git.txt
+	
+	git diff顾名思义就是查看difference，显示的格式正是Unix通用的diff格式
+	
+	要随时掌握工作区的状态，使用git status命令。
+	如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
+	
+5. 版本回退
+-----------
+	
 
